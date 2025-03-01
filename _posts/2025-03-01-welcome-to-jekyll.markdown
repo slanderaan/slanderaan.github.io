@@ -10,6 +10,9 @@ This site was setup with the following commands:
 winget install RubyInstallerTeam.Ruby.3.2
 winget install RubyInstallerTeam.RubyWithDevKit.3.2
 
+# Github setup
+git config --global credential.helper manager-core
+
 # Terminal
 gem install jekyll bundler
 jekyll new slanderblog
